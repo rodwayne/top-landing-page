@@ -32,3 +32,8 @@ header {
   font-size: var(--hero-secondary-font-size);
   color: var(--hero-secondary-color);
 }
+
+header .header-logo {
+  font-size: var(--header-logo-font-size);
+  color: var(--header-logo-color);
+}
