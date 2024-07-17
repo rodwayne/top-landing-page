@@ -28,12 +28,21 @@ body {
 }
 
 header {
+  display: flex;
+  padding: 24px 100px;
   background-color: var(--dark-background-color);
   font-size: var(--hero-secondary-font-size);
   color: var(--hero-secondary-color);
 }
 
 header .header-logo {
+  flex: 1;
   font-size: var(--header-logo-font-size);
   color: var(--header-logo-color);
+}
+
+header ul {
+  display: flex;
+  gap: 100px;
+  list-style-type: none;
 }
