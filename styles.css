@@ -97,11 +97,25 @@ header ul {
   padding: 24px 250px;
 }
 
+.information-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+.card {
+  flex-basis: 200px;
+}
+
 .card-image {
   width: 200px;
   height: 200px;
   border: 5px solid var(--cta-button-background-color);
   border-radius: 5px;
+}
+
+.card-subtext {
+  text-align: center;
 }
 
 footer {
