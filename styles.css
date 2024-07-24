@@ -14,6 +14,9 @@
   /* Header logo text */
   --header-logo-font-size: 24px;
   --header-logo-color: #f9faf8;
+
+  /* Button color */
+  --cta-button-background-color: #3882f6;
 }
 
 * {
@@ -29,7 +32,7 @@ body {
 
 header {
   display: flex;
-  padding: 24px 100px;
+  padding: 24px 250px;
   background-color: var(--dark-background-color);
   font-size: var(--hero-secondary-font-size);
   color: var(--hero-secondary-color);
@@ -45,4 +48,43 @@ header ul {
   display: flex;
   gap: 100px;
   list-style-type: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 250px;
+  background-color: var(--dark-background-color);
+}
+
+.hero-text {
+  width: 500px;
+}
+
+.hero h1 {
+  font-size: var(--hero-main-font-size);
+  font-weight: var(--hero-main-font-weight);
+  color: var(--hero-main-color);
+}
+
+.hero-subtext {
+  font-size: var(--hero-secondary-font-size);
+  color: var(--hero-secondary-color);
+  margin-bottom: 10px;
+}
+
+.signup-button {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--cta-button-background-color);
+  cursor: pointer;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 800px;
+  height: 400px;
+  background-color: gray;
 }
