@@ -17,6 +17,10 @@
 
   /* Button color */
   --cta-button-background-color: #3882f6;
+
+  /* Quote section */
+  --quote-bg-color: #e5e7eb;
+  --quote-text-color: #1f2937;
 }
 
 * {
@@ -116,6 +120,10 @@ header ul {
 
 .card-subtext {
   text-align: center;
+}
+
+.quote {
+
 }
 
 footer {
