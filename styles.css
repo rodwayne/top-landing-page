@@ -123,7 +123,7 @@ header ul {
 }
 
 .quote {
-  padding: 24px 250px;
+  padding: 100px 250px;
   background-color: var(--quote-bg-color);
 }
 
@@ -143,6 +143,38 @@ header ul {
   align-self: flex-end;
   font-size: 18px;
   font-weight: bold;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  color: var(--header-logo-color);
+}
+
+.cta-container {
+  display: inline-block; /* to make the block fit its content */
+  padding: 25px 75px;
+  background-color: var(--cta-button-background-color);
+  border-radius: 10px;
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns items vertically centered */
+  gap: 75px
+}
+
+.cta-text-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta-signup-button {
+  background-color: var(--cta-button-background-color);
+  color: var(--header-logo-color);
+  font-size: var(--hero-secondary-font-size);
+  padding: 5px 15px;
+  border: var(--header-logo-color) 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 footer {
