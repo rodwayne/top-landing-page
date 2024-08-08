@@ -153,11 +153,10 @@ header ul {
 }
 
 .cta-container {
-  display: inline-block; /* to make the block fit its content */
+  display: flex; /* Enables flexbox layout */
   padding: 25px 75px;
   background-color: var(--cta-button-background-color);
   border-radius: 10px;
-  display: flex; /* Enables flexbox layout */
   align-items: center; /* Aligns items vertically centered */
   gap: 75px
 }
